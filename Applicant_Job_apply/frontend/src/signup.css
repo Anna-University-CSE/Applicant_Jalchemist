@@ -1,0 +1,109 @@
+.block{
+    background-color:rgba(30, 23, 25, 0.427) ;
+    margin:none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 150px;
+  width:250px; */
+  border-radius: 15px;
+  padding:25px;
+  /* background: linear-gradient(45deg,pink,blue,green); */
+}
+
+.input_info{
+    padding-bottom:25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+label{
+    padding-bottom: 20px;
+   color:white;
+}
+h1{
+    color:white;    
+    padding-bottom:none;
+    transition: color 0.3s, box-shadow 0.3s;
+    font-size: 2em;
+}
+.submit_login{
+    background-color: aliceblue;
+    color: rgb(7, 5, 6);
+    width:100%;
+    transition: border-color 0.3s, box-shadow 0.3s;
+
+}
+submit-login:hover{
+    border-color: blue;
+    box-shadow: 0 0 8px rgba(0, 0, 255, 0.7);
+}
+/* input{
+    padding:5px;
+    width:300px;
+    margin-top:5px;
+}
+input:focus{
+    border-color: rgb(79, 79, 173);
+} */
+
+input {
+    border: 2px solid gray;
+    outline: none; /* Remove default focus outline */
+    padding: 8px;
+    border-radius: 4px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    width:300px;
+    margin-top:5px;
+    background-color: rgb(21, 18, 18);
+    font-size: 15px;
+  }
+  
+  input:focus {
+    border-color: blue;
+    box-shadow: 0 0 8px rgba(0, 0, 255, 0.7); /* Blue glow effect */
+  }
+
+ 
+  #google-login {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    /* background-color:black; */
+    background-color: white;
+    color: rgb(7, 5, 6);
+    width:100%;
+    border-radius: 5px;
+  }
+  
+  
+  .or-line {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 15px 0;
+  }
+  
+  .or-line::before,
+  .or-line::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: white;
+    margin: 0 10px;
+  }
+  
+  .or-line span {
+    color: rgba(255, 255, 255, 0.484);
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+ 
+  .input_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align label and input to the left */
+    width: 90%;
+     /* Reduce space between label and input */
+} 
+  

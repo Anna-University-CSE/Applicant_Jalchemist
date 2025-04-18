@@ -1,0 +1,145 @@
+/* General Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a73e8; /* Blue background */
+  padding: 15px;
+  position: fixed; /* Fixed at the top */
+  top: 0;
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensure it stays above other content */
+  width: 95vw;
+  font-family:'Courier New', Courier, monospace ;
+  
+}
+/* Dropdown Button Styles */
+.dropdown-button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem; /* Hamburger icon size */
+  color: #fff; /* White icon */
+  cursor: pointer;
+}
+
+.dropdown-button:hover {
+  color: #ffd700; /* Gold hover effect */
+}
+
+/* Dropdown Menu Styles */
+.dropdown-menu {
+  position: fixed; /* Fixed to ensure it stays in place */
+  top: 0;
+  left: 0;
+  width: 20%; /* Covers exactly 20% of the page width */
+  height: 100vh; /* Full height of the viewport */
+  background-color: #000; /* Black background */
+  color: #fff; /* White text for contrast */
+  display: flex;
+  flex-direction: column; /* Vertical layout for links */
+  padding-top: 60px; /* Space below the navbar height */
+}
+
+/* Links inside Dropdown Menu */
+.dropdown-menu a {
+  text-decoration: none; /* Remove underline from links */
+  color: #fff; /* White text for links */
+  padding: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.dropdown-menu a:hover {
+  background-color: #1a73e8; /* Blue background on hover */
+}
+
+/* Responsive Design (Small Screens) */
+@media (max-width: 768px) {
+    .navbar {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .dropdown-menu {
+        width: 70%;
+    }
+}
+
+/* Branding Styles */
+.navbar-brand h1 {
+  font-size: 2rem; /* Large font size for branding */
+  font-weight: bold; /* Bold text for emphasis */
+  color: #fff; /* White text */
+  text-transform: uppercase; /* Make the text all caps */
+  letter-spacing: 2px; /* Add spacing between letters for a stylish look */
+  margin: 0;
+}
+
+.navbar-brand h1:hover {
+  color: #ffd700; /* Gold hover effect for branding */
+  transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+/* Login Button Styles */
+.navbar-login .login-button {
+  background-color: #ffd700; /* Gold background for button */
+  color: #000; /* Black text for contrast */
+  padding: 10px 20px; /* Add padding for button size */
+  border-radius: 25px; /* Rounded button shape */
+  font-weight: bold; /* Bold text for emphasis */
+  text-decoration: none; /* Remove underline from the link */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  width:fit-content;
+}
+
+.navbar-login .login-button:hover {
+  background-color: #fff; /* White background on hover */
+  color: #1a73e8; /* Blue text on hover */
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Responsive Design (Small Screens) */
+@media (max-width: 768px) {
+    .navbar-brand h1 {
+        font-size: 1.5rem; /* Smaller font size for mobile */
+    }
+
+    .navbar-login .login-button {
+        padding: 8px 15px; /* Smaller padding for mobile */
+        font-size: 0.9rem; /* Smaller font size for mobile */
+    }
+}
+
+.right-menu {
+  right: 10px;
+  left: auto;
+}
+.account-dropdown {
+  position: relative;
+}
+
+#nav{
+  border-left: 10px;
+  /* display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+}
+.logout-button{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:15px;
+    margin-top:520px;
+    background-color: #e81a1a;
+    width:max-content;
+    margin-left:100px;
+}
+/* .logout-button :hover{
+  background-color: #d6d94262; 
+} */
+
+#close{
+  margin-left:220px;
+}
+
+

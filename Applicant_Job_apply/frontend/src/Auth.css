@@ -1,0 +1,54 @@
+.auth-container {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .auth-tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .auth-tabs button {
+    background: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s, box-shadow 0.3s;
+ 
+  }
+  .auth-tabs button:hover{
+    color:rgb(120, 120, 231);
+    box-shadow: 0 0 8px rgba(0, 0, 255, 0.7); /* Blue glow effect */
+
+  }
+  
+  .auth-tabs .active {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+  }
+  
+  
+  
+  input {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  

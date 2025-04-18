@@ -1,0 +1,45 @@
+/* Job Card Styles */
+.job-card {
+    background-color: #fff; /* White background for the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Padding inside the card */
+    margin: 15px; /* Space between cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .job-card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
+  /* Job Title Styles */
+  .job-card h3 {
+    font-size: 1.5rem; /* Larger font size for job title */
+    color: #333; /* Dark text for readability */
+    margin-bottom: 10px; /* Space below the title */
+  }
+  
+  /* Company and Location Styles */
+  .job-card p {
+    font-size: 1rem; /* Standard font size for details */
+    color: #666; /* Slightly lighter text for details */
+    margin-bottom: 10px; /* Space below each detail */
+  }
+  
+  /* Button Styles */
+  .job-card button {
+    background-color: #1a73e8; /* Blue background for button */
+    color: #fff; /* White text */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1rem; /* Standard font size */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .job-card button:hover {
+    background-color: #005cbf; /* Darker blue on hover */
+  }
+  

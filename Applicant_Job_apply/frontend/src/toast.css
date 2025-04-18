@@ -1,0 +1,35 @@
+/* Custom toast styles */
+.Toastify__toast {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+/* Style for success toasts */
+.Toastify__toast--success {
+  background-color: #000000 !important;
+}
+
+/* Style for error toasts */
+.Toastify__toast--error {
+  background-color: #000000 !important;
+}
+
+/* Style for warning toasts */
+.Toastify__toast--warning {
+  background-color: #000000 !important;
+}
+
+/* Style for info toasts */
+.Toastify__toast--info {
+  background-color: #000000 !important;
+}
+
+/* Style for the close button */
+.Toastify__close-button {
+  color: #ffffff !important;
+}
+
+/* Style for the progress bar */
+.Toastify__progress-bar {
+  background-color: #ffffff !important;
+} 
