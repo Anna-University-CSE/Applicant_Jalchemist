@@ -1,0 +1,224 @@
+
+
+/* General Styles */
+body {
+  font-family: 'Verdana', Geneva, Tahoma, sans-serif; /* Clean and professional font */
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* Black background */
+  color: #fff; /* White text for general content */
+  width: 100%;;
+}
+
+/* Search Type Selector */
+.search-type-selector {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.search-type-selector label {
+  margin-right: 100px;
+  font-size: 1.2rem;
+  color: #f6f6f6; /* White text for labels */
+}
+
+.search-type-selector input[type="radio"] {
+  /* margin-right: 10px; */
+  width: 50px;
+}
+
+
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #1a1a1a; /* Dark gray form background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px; /* Subtle shadow for depth */
+}
+
+form input,
+form select,
+form button {
+  display: block;
+  width: calc(100% - 40px); 
+  margin-bottom: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 720px;
+
+
+}
+
+form input,
+form select {
+  /* width: 720px; */
+  display: block;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px; /* Rounded corners */
+  border: solid #333 thin; /* Darker border for consistency */
+  
+}
+form input{
+  max-width: 800px;
+
+}
+
+form input::placeholder {
+  color: #aaa; /* Placeholder text color */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+form button {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #1a73e8; /* Blue button */
+}
+.job-card {
+  background: white;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.job-card h3 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+}
+
+.job-card p {
+  margin: 0.25rem 0;
+  color: #666;
+}
+
+/* .sample-jobs {
+  margin: 2rem 0;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.sample-jobs h3 {
+  color: #333;
+  margin-bottom: 1rem;
+} */
+
+/* .job-card {
+  background: white;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.job-card h3 {
+  color: #1a73e8;
+  margin: 0 0 0.5rem 0;
+}
+
+.job-card p {
+  margin: 0.25rem 0;
+  color: #666;
+} */
+
+
+
+/* Container for Centered Content */
+
+
+/* Job Cards Section Styles */
+.job-card {
+  background-color: #1a1a1a; /* Dark gray background for job cards */
+  color: #fff; /* White text for readability */
+  padding: 20px;
+  margin-bottom: 20px; /* Space between cards */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px; /* Subtle shadow for depth */
+}
+
+/* Job Card Headings */
+.job-card h3 {
+  color: #1a73e8; /* Blue text for headings */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Job Card Paragraphs */
+.job-card p {
+  margin-bottom: 10px;
+  color:rgba(245, 245, 220, 0.489);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* Apply Button Styles */
+.apply-button {
+  background-color: #1a73e8; /* Blue background for button */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:300px;
+  color:white;
+}
+
+  .search-jobs-page {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    max-width: 1200px;
+    margin: auto;
+  }
+
+.page-header h1 {
+  color: #1a73e8; /* Blue text for headings */
+ 
+}
+
+header .page-header{
+  display: flex;
+  justify-content: center;
+}
+
+/* Form Styles */
+/* .search-form {
+} */
+
+#cen{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  /* align-items: center; */
+}
+
+/* .search-jobs-page{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+
+/* .search-type-selector {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 0;
+} */
+/* #cent input{
+  width: 2000px;
+} */
+
+
+
+
+
+
+
+

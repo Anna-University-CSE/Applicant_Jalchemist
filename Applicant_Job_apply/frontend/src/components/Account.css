@@ -1,0 +1,122 @@
+/* Account.css */
+
+/* Apply base font and colors consistent with the provided sample */
+.account-page {
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    color: #fff; /* Default white text */
+    max-width: 900px; /* Adjust max-width as needed */
+    margin: 80px auto 40px auto; /* Top margin for fixed navbar, auto horizontal, bottom margin */
+    padding: 20px;
+  }
+  
+  /* Style the main heading */
+  .account-page h1 {
+    color: #1a73e8; /* Blue accent color */
+    text-align: center;
+    margin-bottom: 40px; /* Space below main heading */
+    font-size: 2rem; /* Match branding size from sample if desired */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Style the user info section */
+  .account-page .user-info {
+    background-color: #1a1a1a; /* Dark gray background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 40px; /* Space below user info */
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px; /* Subtle shadow */
+  }
+  
+  .account-page .user-info p {
+    margin: 10px 0; /* Spacing between email/username */
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .account-page .user-info p strong {
+    color: #bbbbbb; /* Slightly lighter color for labels */
+    margin-right: 8px;
+  }
+  
+  /* Style the 'Applied Jobs' heading */
+  .account-page h2 {
+    color: #1a73e8; /* Blue accent color */
+    margin-bottom: 20px;
+    border-bottom: 1px solid #333; /* Subtle separator line */
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  /* Style the list container for applied jobs */
+  .account-page .applied-jobs-list {
+    list-style: none; /* Remove default list styling (like numbers) */
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style each applied job item like a card */
+  .account-page .applied-job-item {
+    background-color: #1a1a1a; /* Dark gray background like job cards */
+    color: #fff; /* White text */
+    padding: 20px;
+    margin-bottom: 20px; /* Space between cards */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px; /* Match job card shadow */
+    border-left: 5px solid #1a73e8; /* Add a blue left border for emphasis */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .account-page .applied-job-item:hover {
+      transform: translateY(-3px); /* Slight lift effect on hover */
+      box-shadow: rgba(0, 0, 0, 0.7) 0px 6px 16px; /* Enhanced shadow on hover */
+  }
+  
+  
+  /* Style the job title inside the card */
+  .account-page .applied-job-item h3 {
+    color: #1a73e8; /* Blue text for job titles */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 0 10px 0; /* Margin below the title */
+    font-size: 1.2rem;
+  }
+  
+  /* Style paragraphs inside the job card */
+  .account-page .applied-job-item p {
+    margin: 5px 0; /* Consistent spacing for details */
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+  
+  /* Style the 'small' tag elements for details */
+  .account-page .applied-job-item p small {
+    color: rgba(245, 245, 220, 0.7); /* Faded text color (slightly more visible) */
+    font-size: 0.9rem; /* Keep small text slightly smaller */
+  }
+  
+  .account-page .applied-job-item p strong {
+      color: #cccccc; /* Label color for Company, Location etc. */
+      margin-right: 5px;
+  }
+  
+  
+  /* Style the message when no jobs are applied */
+  .account-page .no-jobs-message {
+    background-color: #1a1a1a;
+    color: #aaa; /* Gray color for informational message */
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-style: italic;
+  }
+  
+  /* Styling for Loading and Error States */
+  .account-page.loading-container,
+  .account-page.error-container {
+      text-align: center;
+      font-size: 1.2rem;
+      color: #aaa;
+      padding: 50px 20px;
+  }
